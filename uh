@@ -27,7 +27,7 @@ public class Main {
         Calculator calc = new Calculator();
         System.out.println(calc.add(2, 3));         // Outputs: 5
         System.out.println(calc.add(2.5, 3.5));     // Outputs: 6.0
-        System.out.println(calc.add(1, 2, 3));      // Outputs: 6
+        System.out.println(calc.add(1, 5, 3));      // Outputs: 6
 
         // Runtime polymorphism
         Animal myAnimal = new Animal();  // Animal reference and object
